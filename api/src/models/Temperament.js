@@ -12,9 +12,6 @@ module.exports = (sequelize) => {
     name: {
       type: DataTypes.STRING,
       allowNull: false,
-      validate: {
-        noEmpty: true,
-      },
     },
   },{
     timestamps: false,
