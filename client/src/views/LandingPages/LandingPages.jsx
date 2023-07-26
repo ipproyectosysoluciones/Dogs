@@ -5,9 +5,9 @@ import style from './LandingPages.module.css';
 const LandingPages = () => {
   return (
     <div className={ style.LandingPages }>
-      <title>PI - Dogs </title>
+      <title>LandingPages</title>
       <div className={ style.container }>
-        <h1>Henry</h1>
+        <h1>PI - Dogs</h1>
         <p>In this project you will find a lot of information about dog breeds and their qualities.</p>
 
         <Link to="/home">
